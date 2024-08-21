@@ -9,15 +9,15 @@ body {
 .container {
   display: flex;
   width: 600px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-image: url(image.png);
   background-size: cover;
 }
 .inputContainer {
   background-color: white;
   padding: 10px 50px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .password {
   display: flex;
