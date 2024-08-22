@@ -29,8 +29,6 @@ let alhabet = "abcdefghijklmnopqrstuvwxyz";
 function isNumber() {
   const number1 = Phonenumber.value;
   if (number1.length == 8) {
-    alert("numberiin urt 8 baih shaardlagtai");
-  } else {
     for (let i = 0; i <= number1.length; i++) {
       if (number1.includes(alhabet[i])) {
         alert("number dotor useg bichej bolohgui tul ta zasnuu");
@@ -41,6 +39,8 @@ function isNumber() {
         break;
       }
     }
+  } else {
+    alert("numberiin urt 8 baih shaardlagtai");
   }
 }
 let isItTrue = false;
@@ -49,7 +49,7 @@ function isValidPass() {
   const isPassValid = Password.value;
 
   if (isPassValid.length < 8) {
-    alert("Password is Too Short");
+    alert("Passwordiin urt 8 bolon tuunees deesh baih shaardlagatai");
   } else {
     alert("Password ok");
     todoteleport += 1;
